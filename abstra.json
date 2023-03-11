@@ -1,0 +1,8 @@
+{
+    "workspace": {
+        "theme": "white"
+    },
+    "packages": {
+        "file": "requirements.txt"
+    }
+}

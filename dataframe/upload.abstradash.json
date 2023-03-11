@@ -1,0 +1,35 @@
+{
+    "name": "helloworld",
+    "layout": {
+        "props": {},
+        "version": "0.1",
+        "widgets": {
+            "83be7220-a9f6-4663-923c-1a2a9aa9119d": {
+                "id": "83be7220-a9f6-4663-923c-1a2a9aa9119d",
+                "type": "file-input",
+                "colEnd": 4,
+                "colStart": 1,
+                "rowEnd": 5,
+                "rowStart": 2,
+                "props": {
+                    "label": "\"Upload the excel file here\""
+                },
+                "events": {},
+                "variable": "uploaded"
+            },
+            "5d197197-756d-401e-b2ae-f7d90e377a28": {
+                "id": "5d197197-756d-401e-b2ae-f7d90e377a28",
+                "type": "pandas-output",
+                "colEnd": 10,
+                "colStart": 1,
+                "rowEnd": 18,
+                "rowStart": 6,
+                "props": {
+                    "df": "get_dataframe()",
+                    "label": "\"The output\""
+                },
+                "events": {}
+            }
+        }
+    }
+}
